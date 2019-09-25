@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+	
+	   <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<style>
+	
+	body {
+    background-color: #99F1E2;
+	}
+	
+	.gui {background-color: #FFCB61;
+		 border: 1px solid black;
+		 height: 35px;}
+		 
+	.gui2 {background-color: #99F1E2;
+		 border: 0px solid black;
+		 height: 200px;}
+
+	.gui3 {background-color: #FFCB61;
+		 border: 1px solid black;
+		 height: 300px;}
+
+
+	.gui4 {background-color: #FFCB61;
+		 border: 1px solid black;
+		 height: 200px;}
+
+	.guinav {background-color: #FFCB61;
+		 border: 1px solid black;
+		 height: 50px;}		 
+		 
+	.gui5 {background-color: grey;
+			border: 10px solid white;
+			height : 300px;}
+			
+	.card { background-color: #FFCB61; }
+
+	
+	</style>
+	
+	
+	
+</head>
+
+<body onload="setUpCart()">
+     <title>Laptops</title>
+
+	 <nav class="navbar navbar-expand-lg navbar-dark guinav">
+ <a href="Home.html"><img src="images/clogo.jpg" alt="shopcart" height="48" width="65"></a>
+  <a class="navbar-brand" href="Home.html">Comp TeK</a>
+ 	
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+	  
+      <li class="nav-item active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Shop
+        </a>
+		
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="GamingLaptops.html">Laptops</a>
+          <a class="dropdown-item" href="desktops.html">Pc's</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="Repairs.html">Repairs</a>
+        </div>
+		
+      <li class="nav-item active">
+        <a class="nav-link" href="AboutUs.html">About us</a>
+      </li>
+	  
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Services.html">Services</a>
+      </li>	  
+	  
+	   <li class="nav-item active">
+        <a class="nav-link" href="SignUp.html" >Login</a>
+      </li>	  
+    </ul>
+	        <a href="checkout.html" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+        </a>
+  </div>
+</nav>
+	 
+	 
+ 	
+	<br></br>
+
+	
+
+    <title>Laptops</title>
+  </head>
+  	
+	<h1 align="center">Gaming Laptops</h1>
+	<br>
+	<div class ="container">
+		<div class="row">
+			
+			<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/asus_rog.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">ASUS ROG STRIX GL703VD</h5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1050 4GB</p>
+			<p class="card-text">CPU - i7 7700HQ</p>
+			<p class="card-text">RAM - 8GB DDR4</p>
+			<p class="card-text">SSD - 256GB</p>
+			<p class="card-text">HDD - 1TB</p>
+			<p class="card-text"><b>Price: €1,499.99</b></p>
+			<button onclick="addProduct('ASUS ROG STRIX GL703VD',1499.99,1)">Add to cart</button>
+			</div>
+			</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/lenovo.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">Lenovo Legion Y520</h5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1050ti 4GB</p>
+			<p class="card-text">CPU - i7 7700HQ</p>
+			<p class="card-text">RAM - 8GB DDR4</p>
+			<p class="card-text">SSD - 256GB</p>
+			<p class="card-text">HDD - 1TB</p>
+			<p class="card-text"><b>Price: €959.99</b></p>
+			<button onclick="addProduct('Lenovo Legion Y520',959.99,1)">Add to cart</button>			
+			</div>
+			</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/medionerazer.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">Medion Erazer P6681</h5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1050 4GB</p>
+			<p class="card-text">CPU - i7 7500U</p>
+			<p class="card-text">RAM - 8GB DDR4</p>
+			<p class="card-text">SSD - N/A</p>
+			<p class="card-text">HDD - 1TB</p>
+			<p class="card-text"><b>Price: €743.99</b></p>
+			<button onclick="addProduct('Medion Erazer P6681',743.99,1)">Add to cart</button>						
+			</div>
+			</div>
+			</div>
+			
+		</div>
+		
+		<br></br>
+		
+		<div class="row">
+		
+					<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/alienware_!.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">Alienware CA17FHDi</h5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1070 8GB</p>
+			<p class="card-text">CPU - i7 7700HQ</p>
+			<p class="card-text">RAM - 16GB DDR4</p>
+			<p class="card-text">SSD - 256GB</p>
+			<p class="card-text">HDD - 1TB</p>
+			<p class="card-text"><b>Price: €1,599.99</b></p>
+			<button onclick="addProduct('Alienware CA17FHDi',1599.99,1)">Add to cart</button>									
+			</div>
+			</div>
+			</div>
+			
+						<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/asus.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">ASUS G752VL-T7019Th5</H5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 965M</p>
+			<p class="card-text">CPU - i7 6700HQ</p>
+			<p class="card-text">RAM - 16GB DDR4</p>
+			<p class="card-text">SSD - 256GB</p>
+			<p class="card-text">HDD - 2TB</p>
+			<p class="card-text"><b>Price: €1,999.99</b></p>
+			<button onclick="addProduct('ASUS G752VL-T7019Th5',1999.99,1)">Add to cart</button>									
+			</div>
+			</div>
+			</div>
+			
+						<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/asus_rog.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">ASUS ROG STRIX GL703VD</h5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1050 4GB</p>
+			<p class="card-text">CPU - i7 7700HQ</p>
+			<p class="card-text">RAM - 16GB DDR4</p>
+			<p class="card-text">SSD - 256GB</p>
+			<p class="card-text">HDD - 2TB</p>
+			<p class="card-text"><b>Price: €1,129.00</b></p>
+			<button onclick="addProduct('ASUS ROG STRIX GL703VD',1129.00,1)">Add to cart</button>									
+			
+			</div>
+			</div>
+			</div>
+			
+		</div>
+		
+				<br>
+		<br>
+		
+		<div class="row">
+		
+					<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/msi_gp72.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">MSI GP72</h5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1050ti</p>
+			<p class="card-text">CPU - i7 7700HQ</p>
+			<p class="card-text">RAM - 16GB DDR4</p>
+			<p class="card-text">SSD - 256GB</p>
+			<p class="card-text">HDD - 1TB</p>
+			<p class="card-text"><b>Price: 50% OFF - NOW €499.99</b></p>
+			<button onclick="addProduct('MSI GP72',499.99,1)">Add to cart</button>									
+			</div>
+			</div>
+			</div>
+			
+						<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/razer_blade.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">RAZER Blade</H5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1060</p>
+			<p class="card-text">CPU - i7 6700HQ</p>
+			<p class="card-text">RAM - 16GB DDR4</p>
+			<p class="card-text">SSD - 512GB</p>
+			<p class="card-text">HDD - 1TB</p>
+			<p class="card-text"><b>Price: €1,499.00</b></p>
+			<button onclick="addProduct('RAZER Blade',1499.99,1">Add to cart</button>									
+			</div>
+			</div>
+			</div>
+			
+						<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/MSI_GT75.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">MSI GT75</h5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1080 </p>
+			<p class="card-text">CPU - i9 8950HK</p>
+			<p class="card-text">RAM - 16GB DDR4</p>
+			<p class="card-text">SSD - 512GB</p>
+			<p class="card-text">HDD - 1TB</p>
+			<p class="card-text"><b>Price: €3,999.99</b></p>
+			<button onclick="addProduct('MSI GT75',3999.99,1)">Add to cart</button>						
+			
+			</div>
+			</div>
+			</div>
+
+		</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	<script src = "jsFile.js"></script>
+
+
+ </body>
+  
+</html>

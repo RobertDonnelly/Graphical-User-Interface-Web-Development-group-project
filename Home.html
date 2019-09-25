@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+
+	
+	   <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<style>
+	
+	body {
+    background-color: #99F1E2;
+	}
+	
+	.gui {background-color: #FFCB61;
+		 border: 1px solid black;
+		 height: 35px;}
+		 
+	.gui2 {background-color: #99F1E2;
+		 border: 0px solid black;
+		 height: 200px;}
+
+	.gui3 {background-color: #FFCB61;
+		 border: 1px solid black;
+		 height: 300px;}
+
+
+	.gui4 {background-color: #FFCB61;
+		 border: 1px solid black;
+		 height: 200px;}
+
+	.guinav {background-color: #FFCB61;
+		 border: 1px solid black;
+		 height: 50px;}		 
+	
+	.mySlides {display:none;
+		}
+	
+	.slideshow {
+				margin: auto;
+				width: 85%;
+				length: 40%;
+				padding: 10px;
+				}
+	</style>
+</head>
+
+<body>
+     <title>HomePage</title>
+
+	 <nav class="navbar navbar-expand-lg navbar-dark guinav">
+ <a href="Home.html"><img src="images/clogo.jpg" alt="clogo" height="48" width="65"></a>
+  <a class="navbar-brand" href="Home.html">Comp TeK</a>
+ 	
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+	  
+      <li class="nav-item active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Shop
+        </a>
+		
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="GamingLaptops.html">Laptops</a>
+          <a class="dropdown-item" href="desktops.html">Pc's</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="Repairs.html">Repairs</a>
+        </div>
+		
+      <li class="nav-item active">
+        <a class="nav-link" href="AboutUs.html">About us</a>
+      </li>
+	  
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Services.html">Services</a>
+      </li>	  
+	     
+		<li class="nav-item active">
+        <a class="nav-link" href="SignUp.html" >Login</a>
+      </li>	 
+    </ul>
+	
+	        <a href="checkout.html" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+        </a>
+	  </div>
+</nav>
+	 
+	 
+ 	
+	<br></br>
+	
+		<div class="container">
+
+				<br></br>
+					
+				<h1 align="center">MAY DEALS 2018</h1>
+
+
+				
+				<div class="slideshow" style="max-width:100%">
+  <img class="mySlides" src="images/alienware_deals.jpg" style="width:100%">
+  <img class="mySlides" src="images/razer_deals.jpg" style="width:100%">
+  <img class="mySlides" src="images/omen_deals.jpg" style="width:100%"> 
+</div>
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+		myIndex++;
+		if (myIndex > x.length) {myIndex = 1}    
+		x[myIndex-1].style.display = "block";  
+		setTimeout(carousel, 3500); // Change image every 3.5 seconds
+	}
+</script>
+				
+				<br></br>
+
+				
+				<h2 align="center">Welcome to Comp TeK</h2>
+				<p align="center">Comp TeK is an Irish based site that provide laptop and desktops sales along with repairs. For the month of May we have special offers on some of the products we sell such as high end laptops from Razer, MSI, HP and Alienware. Latest deals can be found on the slides above this. The tabs located at the top of the site will leads you to all aspects of the site from about us to laptop sales.</p>
+				<h5 align="center">Repairs and Services </h5>
+				<p align="center">Along with the services listed above we provide a wide varity of services which can be found under the services tab. Repairs all come with a one year guarantee once you retain your order number and/or receipt. We are a licensed repair agent for most major technology companies such as apple, hp and razer.</p>
+				<h5 align="center">Sales and Shipping </h5>
+				<p align="center">Our sales departments are all located at the top of the site and all orders are competitively priced and we try to provide the best prices around. All orders are processed after 3 days and will be shipped to your address and received within 7 working days inside the EU and up to 2 weeks if you are living outside the EU. </p>
+				<h5 align="center">Shopping cart and Accounts</h5>
+				<p align="center">When shopping for laptops or anything on the site there is a basket/shopping cart feature which can be used to add your items to for later. Recently we have added the ability to be able to log into and make accounts on our site which can be used to store products on for future times saving time and effort. Accounts set up on the site will be saved and all information stored will be handled with the utmost care and will never be used by us or anyone else only the user them self.</p>
+				
+				
+				<br></br>
+
+				<div class="row">
+				
+				<div class="col-lg-3 col-md-3 col-sm-3 gui2"></div>
+			
+				<div class="col-lg-3 col-md-3 col-sm-3 gui4"></div>
+			
+				<div class="col-lg-3 col-md-3 col-sm-3 gui4"></div>				
+				
+				<div class="col-lg-3 col-md-3 col-sm-3 gui2"></div>
+
+				</div>
+
+	
+				<div class="row">
+				
+				<div class="col-lg-3 col-md-3 col-sm-3 gui2"></div>
+			
+				<div class="col-lg-3 col-md-3 col-sm-3 gui4"></div>
+			
+				<div class="col-lg-3 col-md-3 col-sm-3 gui4"></div>				
+				
+				<div class="col-lg-3 col-md-3 col-sm-3 gui2"></div>
+
+				</div>
+				
+				<br></br>
+				
+				
+				
+			
+				
+				
+			</div>	
+		</div>
+ 
+</body>
+
+
+</html>
+<script>
+
+</script>
+
+
+
+	
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  

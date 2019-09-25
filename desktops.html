@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+	
+	   <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<style>
+	
+	body {
+    background-color: #99F1E2;
+	}
+	
+	.gui {background-color: #FFCB61;
+		 border: 1px solid black;
+		 height: 35px;}
+		 
+	.gui2 {background-color: #99F1E2;
+		 border: 0px solid black;
+		 height: 200px;}
+
+	.gui3 {background-color: #FFCB61;
+		 border: 1px solid black;
+		 height: 300px;}
+
+
+	.gui4 {background-color: #FFCB61;
+		 border: 1px solid black;
+		 height: 200px;}
+
+	.guinav {background-color: #FFCB61;
+		 border: 1px solid black;
+		 height: 50px;}		 
+		 
+	.gui5 {background-color: grey;
+			border: 10px solid white;
+			height : 300px;}
+	
+	.card { background-color: #FFCB61; }
+	
+	</style>
+</head>
+
+<body onload="setUpCart()">
+     <title>Desktops</title>
+
+	 <nav class="navbar navbar-expand-lg navbar-dark guinav">
+ <a href="Home.html"><img src="images/clogo.jpg" alt="shopcart" height="48" width="65"></a>
+  <a class="navbar-brand" href="Home.html">Comp TeK</a>
+ 	
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+	  
+      <li class="nav-item active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Shop
+        </a>
+		
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="GamingLaptops.html">Laptops</a>
+          <a class="dropdown-item" href="desktops.html">Pc's</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="Repairs.html">Repairs</a>
+        </div>
+		
+      <li class="nav-item active">
+        <a class="nav-link" href="AboutUs.html">About us</a>
+      </li>
+	  
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Services.html">Services</a>
+      </li>	  
+	  
+	  <li class="nav-item active">
+        <a class="nav-link" href="SignUp.html" >Login</a>
+      </li>	 
+    </ul>
+	        <a href="checkout.html" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+        </a>
+  </div>
+</nav>
+	 
+	 
+ 	
+	<br></br>
+
+	
+
+    <title>Desktop Sales</title>
+  </head>
+  	
+	<h1 align="center">Desktops</h1>
+	<br>
+	<div class ="container">
+		<div class="row">
+			
+			<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/omen1.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">HP Omen i5 Desktop</h5>
+			<p class="card-text">RAM - 8GB DDR4</p>
+			<p class="card-text">GPU - GTX 1060 3GB</p>
+			<p class="card-text">CPU - AMD Ryzen 7 1800X</p>
+			<p class="card-text">RAM - 16GB DDR4</p>
+			<p class="card-text">SSD - 512GB</p>
+			<p class="card-text">HDD - 2TB</p>
+			<p class="card-text"><b>Price: €849.99</b></p>
+			<button onclick="addProduct('HP Omen i5 Desktop',849.99,1)">Add to cart</button>												
+			</div>
+			</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/omen2.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">HP Omen 880-040 </h5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1080 8GB</p>
+			<p class="card-text">CPU - i7 7700HQ</p>
+			<p class="card-text">RAM - 8GB DDR4</p>
+			<p class="card-text">SSD - 256GB</p>
+			<p class="card-text">HDD - 1TB</p>
+			<p class="card-text"><b>Price: €1,699.99</b></p>
+			<button onclick="addProduct('HP Omen 880-040',1699.99,1)">Add to cart</button>												
+			</div>
+			</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/omen3.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">HP Omen X 900</h5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1080 4GB</p>
+			<p class="card-text">CPU - i7 7700K</p>
+			<p class="card-text">RAM - 32GB DDR4</p>
+			<p class="card-text">SSD - 256GB</p>
+			<p class="card-text">HDD - 4TB</p>
+			<p class="card-text"><b>Price: €3,499.00 </b></p>
+			<button onclick="addProduct('HP Omen X 900',3499.99,1)">Add to cart</button>												
+			</div>
+			</div>
+			</div>
+			
+		</div>
+		
+		<br></br>
+		
+		<div class="row">
+		
+					<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/alien1.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">Alienware AUR5</h5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1070 8GB</p>
+			<p class="card-text">CPU - i7 6700</p>
+			<p class="card-text">RAM - 16GB DDR4</p>
+			<p class="card-text">SSD - 256GB</p>
+			<p class="card-text">HDD - 2TB</p>
+			<p class="card-text"><b>Price: €1,650.00</b></p>
+			<button onclick="addProduct('Alienware AUR5',1650.00,1)">Add to cart</button>												
+			</div>
+			</div>
+			</div>
+			
+						<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/alien2.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">Alienware AX51R2</H5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 660</p>
+			<p class="card-text">CPU - i7 4770</p>
+			<p class="card-text">RAM - 8GB DDR3</p>
+			<p class="card-text">SSD - N/A</p>
+			<p class="card-text">HDD - 1TB</p>
+			<p class="card-text"><b>Price: €899.99</b></p>
+			<button onclick="addProduct('Alienware AX51R2',899.99,1)">Add to cart</button>												
+			</div>
+			</div>
+			</div>
+			
+						<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/alien3.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">Alienware Aurora R7</h5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1070 4GB</p>
+			<p class="card-text">CPU - i7 8700</p>
+			<p class="card-text">RAM - 16GB DDR4</p>
+			<p class="card-text">SSD - 256GB</p>
+			<p class="card-text">HDD - 1TB</p>
+			<p class="card-text"><b>Price: €1,669.00</b></p>
+			<button onclick="addProduct('Alienware Aurora R7',1669.99,1)">Add to cart</button>												
+			</div>
+			</div>
+			</div>
+			
+		</div>
+	
+		<br></br>
+		
+		<div class="row">
+		
+					<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/razer1.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">MAINGEAR R1 Razer Edition </h5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1070 4GB</p>
+			<p class="card-text">CPU - i5 6600K</p>
+			<p class="card-text">RAM - 16GB DDR4</p>
+			<p class="card-text">SSD - 250GB</p>
+			<p class="card-text">HDD - 1TB</p>
+			<p class="card-text"><b>Price: €1,599.99</b></p>
+			<button onclick="addProduct('MAINGEAR R1 Razer Edition ',1599.99,1)">Add to cart</button>												
+			</div>
+			</div>
+			</div>
+			
+						<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/desktop1.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">Power Gaming i3</H5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 1030</p>
+			<p class="card-text">CPU - i3 7100</p>
+			<p class="card-text">RAM - 8GB DDR3</p>
+			<p class="card-text">SSD - N/A</p>
+			<p class="card-text">HDD - 500GB</p>
+			<p class="card-text"><b>Price: €499.99</b></p>
+			<button onclick="addProduct('Power Gaming i3',499.99,1)">Add to cart</button>												
+			</div>
+			</div>
+			</div>
+			
+						<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="card">
+			<img class="card-img-top" src="images/desktop2.jpg" height = "auto" alt="Card image cap">
+			<div class="card-body">
+			<h5 class="card-title">Storm x99</h5>
+			<p class="card-text">Computer Specs.</p>
+			<p class="card-text">GPU - GTX 760 </p>
+			<p class="card-text">CPU - i7 4770K</p>
+			<p class="card-text">RAM - 8GB DDR4</p>
+			<p class="card-text">SSD - 180GB</p>
+			<p class="card-text">HDD - 1TB</p>
+			<p class="card-text"><b>Price: €850.00</b></p>
+			<button onclick="addProduct('Storm x99i',850.00,1)">Add to cart</button>												
+			</div>
+			</div>
+			</div>
+
+		</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	<script src = "jsFile.js"></script>
+
+  </body>
+</html>

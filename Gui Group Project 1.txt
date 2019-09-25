@@ -1,0 +1,34 @@
+Custom Pc site.(less products,easier to price and less sorting by part etc. this will only be sorted by price.)
+
+Webesite Name??
+
+   \Pages/:
+1) all pages will have shopping cart  in top right corner. 
+2) all pages will have a email signup option aswell as paypall,mastercard,visa and DHL logos on bottom of page for professional look.
+
+3) Home Page:(info about website(delivery,installation,warantys etc),welcome,clickable images for the items for sale !empasis on the 2 product bundle deal2!)
+
+4) items sold caergories:drop down menu on homepage and when clicked taken to page with catergories(Gaming Pcs, Work Desktops, Laptops, Tablets & Accessories)
+
+5) Customer Servies:Store location, delivery/installation info,Contact info,Warranty etc
+
+6) About us page (easy filler page with info about who we are and what we do)
+
+7) Repairs (Repair software virus's  etc and hardware faults,upgrades,os installations,data recovery)
+
+
+
+
+
+
+
+
+
+
+
+
+
+#use http://lapteck.com/ as a refence for these ideas#
+
+
+

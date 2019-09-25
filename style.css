@@ -1,0 +1,42 @@
+	 body {background-color: lightblue; 
+	    font-family: 'Allerta';font-size: 22px;
+	 
+	}
+	
+	.div
+		{
+		box-shadow: 10px 10px 5px #888888
+		}
+	
+	.div1 {
+    width: 900px;
+    height: 100px;    
+    padding: 10px;
+    border: 1px soild;}
+	
+div.absolute {
+    position: absolute;
+    top: 1120px;
+    right: 0;
+    width: 900px;
+    height: 200px;
+    border: 0px solid ;
+}
+	
+ .button	{width:200px;
+			height:45px;
+			float: left;
+			background-color: light yellow;
+			color: purple;
+			border-radius: 60px;
+			border:solid 25px;
+			positon: fixed;
+			padding:32px;
+			box-shadow: 5px 5px 5px #88888
+		
+.button:hover
+			{	
+				border:solid 3px ;
+				background-color: light blue;	
+				box-shadow: 40px 40px 4px #888888
+			}
